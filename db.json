@@ -1,49 +1,48 @@
-
+{
+  "qa": [
     {
-        "qa": [
+      "id": 5,
+      "title": "c'est quoi votre model",
+      "label": "Model",
+      "help_title": "aide",
+      "help_text": "exemple: iphone 5",
+      "required": true,
+      "response_type": "input_text",
+      "responses": [
+        {
+          "id": 6,
+          "response_value": "",
+          "response_type": "input_text",
+          "placeholder": "iphone",
+          "questions": [
             {
-        "id": 5,
-        "title": "c'est quoi votre model",
-        "label": "Model",
-        "help_title": "aide",
-        "help_text": "exemple: iphone 5",
-        "required": true,
-        "response_type": "input_text",
-        "responses": [
-            {
-                "id": 6,
-                "response_value": "",
-                "response_type": "input_text",
-                "placeholder": "iphone",
-                "questions": [
-                    {
-                        "id": 8,
-                        "title": "la capacité de votre iphone ?",
-                        "label": "storage",
-                        "help_title": "",
-                        "help_text": "",
-                        "required": true,
-                        "response_type": "select",
-                        "responses": [
-                            {
-                                "id": 9,
-                                "response_value": "32 GO",
-                                "response_type": "select",
-                                "placeholder": "",
-                                "questions": []
-                            },
-                            {
-                                "id": 10,
-                                "response_value": "64 go",
-                                "response_type": "select",
-                                "placeholder": "",
-                                "questions": []
-                            }
-                        ]
-                    }
-                ]
+              "id": 8,
+              "title": "la capacité de votre iphone ?",
+              "label": "storage",
+              "help_title": "",
+              "help_text": "",
+              "required": true,
+              "response_type": "select",
+              "responses": [
+                {
+                  "id": 9,
+                  "response_value": "32 GO",
+                  "response_type": "select",
+                  "placeholder": "",
+                  "questions": []
+                },
+                {
+                  "id": 10,
+                  "response_value": "64 go",
+                  "response_type": "select",
+                  "placeholder": "",
+                  "questions": []
+                }
+              ]
             }
-        ]
-            }
-            ]
+          ]
+        }
+      ]
     }
+  ]
+}

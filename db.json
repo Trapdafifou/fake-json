@@ -44,5 +44,16 @@
         }
       ]
     }
+  ],
+  "categories": [
+    {
+      "title": "toto",
+    },
+    {
+      "title": "foo",
+    },
+    {
+      "title": "bar",
+    },
   ]
 }
